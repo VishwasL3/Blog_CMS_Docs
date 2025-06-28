@@ -1,0 +1,15 @@
+---
+const { redirect } = Astro.props;
+Astro.redirect(redirect); // server-side + static redirect
+---
+
+<!-- Fallback for browsers without JS -->
+<html lang="en">
+  <head>
+    <meta http-equiv="refresh" content="0; url={redirect}" />
+    <title>Redirecting...</title>
+  </head>
+  <body>
+    <p>Redirecting to <a href={redirect}>{redirect}</a>...</p>
+  </body>
+</html>

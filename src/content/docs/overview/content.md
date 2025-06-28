@@ -5,7 +5,7 @@ description: Blog CMS is a free, lightweight content management system designed 
 
 ![BLOG CMS IMAGE](../../../assets/blog_cms.png)
 <br/><br/>
-**28/06/2025**
+**12/04/2025**
 
 ### What is Blog - CMS?
 
