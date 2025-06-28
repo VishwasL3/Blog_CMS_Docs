@@ -10,20 +10,20 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
-					label:"Overview",
-					slug:"overview/main"
+					label:'Overview',
+					items:[
+						{ label: 'Introduction', slug:'overview/intro'},
+						{ label: 'What Is Blog - CMS?', slug:'overview/content'}
+					]
 				},
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
+					label:'Motivation',
+					slug:'motivation/main'
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
+					label:'Guide',
+					slug:'guide/sign'
+				}
 			],
 		}),
 	],
