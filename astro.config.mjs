@@ -11,10 +11,7 @@ export default defineConfig({
 			sidebar: [
 				{
 					label:'Overview',
-					items:[
-						{ label: 'Introduction', slug:'overview/intro'},
-						{ label: 'What Is Blog - CMS?', slug:'overview/content'}
-					]
+					slug:'overview/content'
 				},
 				{
 					label:'Motivation',
@@ -22,7 +19,9 @@ export default defineConfig({
 				},
 				{
 					label:'Guide',
-					slug:'guide/sign'
+					items:[
+						{ label:'1. Sign In / Sing Up', slug:'guide/sign' }
+					]
 				}
 			],
 		}),

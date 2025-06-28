@@ -1,5 +1,5 @@
 ---
-title: Guide
+title: Get Started
 ---
 
 #### 1. Sign In / Sign Up
