@@ -9,6 +9,7 @@ export default defineConfig({
 			title: '',
 			logo: {src:'./public/logo.webp'},
 			tableOfContents:false,
+			customCss: ['./src/styles/theme.css'],
 			sidebar: [
 				{
 					label:'Overview',
@@ -35,7 +36,11 @@ export default defineConfig({
 				},
 				{
 					label:'API Endpoints',
-					slug:'api-endpoint/content'
+					items:[
+						{ label:'Category', slug:'api-endpoint/category' },
+						{ label:'Get One Blog', slug:'api-endpoint/get-one-blog' },
+						{ label:'Get All Blog', slug:'api-endpoint/get-all-blog' },
+					]
 				}
 			],
 		}),
