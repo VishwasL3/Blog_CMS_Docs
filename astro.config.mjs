@@ -6,8 +6,9 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Blog CMS',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: '',
+			logo: {src:'./public/logo.webp'},
+			tableOfContents:false,
 			sidebar: [
 				{
 					label:'Overview',
